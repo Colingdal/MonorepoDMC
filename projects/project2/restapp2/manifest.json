@@ -7,5 +7,5 @@
   "helpUrl": "https://example.com/restapps",
   "type": "RESTApp",
   "bundled": true,
-  "maxUploadSizeInMB": 0
+  "maxUploadSizeInMB": 1
 }

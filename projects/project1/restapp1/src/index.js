@@ -1,17 +1,15 @@
+import * as React from "react";
+import { renderToString } from "react-dom/server";
 import router from "@sitevision/api/common/router";
+import appData from "@sitevision/api/server/appData";
+import App from "./components/App";
 
-router.get("/myroute", (req, res) => {
-  res.json({ message: "Hello from GET" });
-});
+router.get("/", (req, res) => {
+  const message = "Hello, world!";
+  const name = appData.get("name");
 
-router.post("/myroute", (req, res) => {
-  res.json({ message: "Hello from POST" });
-});
-
-router.put("/myroute", (req, res) => {
-  res.json({ message: "Hello from PUT" });
-});
-
-router["delete"]("/myroute", (req, res) => {
-  res.json({ message: "Hello from DELETE" });
+  res.agnosticRender(renderToString(<App message={message} name={name} />), {
+    message,
+    name,
+  });
 });

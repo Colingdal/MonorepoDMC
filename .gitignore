@@ -1,7 +1,0 @@
-node_modules/
-dist/
-build/
-*.zip
-appdatadefault.json
-.dev-properties.json
-.DS_Store

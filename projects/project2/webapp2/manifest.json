@@ -11,7 +11,7 @@
   "helpUrl": "https://example.com/webapps",
   "type": "WebApp",
   "bundled": true,
-  "maxUploadSizeInMB": 4,
+  "maxUploadSizeInMB": 1,
   "requiredLibs": {
     "react": "18.3.1"
   }

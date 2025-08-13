@@ -1,11 +1,18 @@
 {
   "id": "restapp1",
   "version": "0.0.1",
-  "name": "RESTApp boilerplate",
+  "name": {
+    "en": "WebApp boilerplate"
+  },
   "author": "My Company",
-  "description": "A RESTApp boilerplate",
-  "helpUrl": "https://example.com/restapps",
-  "type": "RESTApp",
+  "description": {
+    "en": "A WebApp boilerplate"
+  },
+  "helpUrl": "https://example.com/webapps",
+  "type": "WebApp",
   "bundled": true,
-  "maxUploadSizeInMB": 0
+  "maxUploadSizeInMB": 1,
+  "requiredLibs": {
+    "react": "18.3.1"
+  }
 }

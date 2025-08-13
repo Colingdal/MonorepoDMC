@@ -12,11 +12,21 @@
   },
   "eslintConfig": {
     "extends": [
-      "@sitevision/eslint-config-recommended"
+      "@sitevision/eslint-config-recommended",
+      "@sitevision/eslint-config-webapp-react"
     ]
   },
   "prettier": {},
+  "postcss": {
+    "plugins": [
+      "autoprefixer"
+    ]
+  },
   "dependencies": {
-    "@sitevision/api": "^2025.4.2"
+    "@sitevision/api": "^2025.4.2",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
