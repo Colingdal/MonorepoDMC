@@ -1,0 +1,10 @@
+{
+  "name": "project2",
+  "private": true,
+  "workspaces": [
+    "*"
+  ],
+  "dependencies": {
+    "@sitevision/sitevision-scripts": "^5.3.0"
+  }
+}
