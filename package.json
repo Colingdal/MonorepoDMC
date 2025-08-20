@@ -2,8 +2,11 @@
   "name": "monorepodmc",
   "private": true,
   "workspaces": [
-    "projects/project1/*",
-    "projects/project2/*"
+    "projects/*",
+    "sv-dmc-*",
+    "restapps/*",
+    "webapps/*",
+    "sv-*"
   ],
   "devDependencies": {
     "react": "^18.2.0",
