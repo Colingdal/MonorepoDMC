@@ -1,0 +1,22 @@
+{
+  "id": "handleDataDDI",
+  "version": "0.0.1",
+  "name": {
+    "en": "WebApp boilerplate"
+  },
+  "author": "My Company",
+  "description": {
+    "en": "A WebApp boilerplate"
+  },
+  "helpUrl": "https://example.com/webapps",
+  "type": "WebApp",
+  "bundled": true,
+  "maxUploadSizeInMB": 4,
+  "requiredLibs": {
+    "react": "18.3.1"
+  },
+  "storage":{
+    "collectionDataStore": 
+      "dataRetrieverDDI"
+  }
+}

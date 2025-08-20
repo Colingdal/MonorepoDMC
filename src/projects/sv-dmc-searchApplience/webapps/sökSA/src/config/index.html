@@ -1,0 +1,283 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">"Menade du"</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label
+      ><input
+         type="checkbox"
+         name="checkboxsuggestion"
+         data-value-type="boolean"
+      /> Visa "Menade du"
+      </label
+   >
+   </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Träffinnehåll</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label
+      ><input
+         type="checkbox"
+         name="checkboxtimeauthor"
+         data-value-type="boolean"
+      /> Visa tid och skapare
+      </label
+   >
+   <br>
+   <!-- <label
+      ><input
+         type="checkbox"
+         name="checkboxpath"
+         data-value-type="boolean"
+      /> Visa sökväg
+      </label -->
+   <br>
+   <label>Antal tecken i träffar</label>
+      <input 
+      class="form-control"
+      data-component="number-spinner"
+      data-min="1"
+      data-max="500"
+      data-step="10"
+      name="numberofhits"  
+      /><br>
+      <label
+      ><input
+         type="checkbox"
+         name="checkboxtotalhits"
+         data-value-type="boolean"
+      /> Visa antal sökträffar
+      </label
+   >
+   </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Felmeddelanden</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label
+      ><input
+         type="checkbox"
+         name="checkboxerror"
+         data-value-type="boolean"
+      /> Visa felmeddelanden
+      </label
+   >
+   </div>
+  </div>
+</div> 
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Uppdelning</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label
+      ><input
+         type="checkbox"
+         name="checkboxpages"
+         data-value-type="boolean"
+      /> Dela upp sökträffar på fler sidor
+      </label
+   > <br><label>Antal träffar per sida</label>
+   <input 
+   class="form-control"
+   data-component="number-spinner"
+   data-min="1"
+   data-max="500"
+   data-step="5"
+   name="hitsperpage"  
+   />
+   </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Sökfråga</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label
+      ><input
+         type="checkbox"
+         name="checkboxstar"
+         data-value-type="boolean"
+      /> Använd "wildcard"-sökning (lägg till asterisk efter sista ordet)
+      </label
+   >
+   </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Träffrubrik</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label
+      ><input
+         type="checkbox"
+         name="hitcount"
+         data-value-type="boolean"
+      /> Visa träffnumrering
+      </label
+   >
+   </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Inkludera</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label
+      ><input
+         type="checkbox"
+         name="images"
+         data-value-type="boolean"
+      /> Bilder
+      </label
+   ><br>
+   <label
+   ><input
+      type="checkbox"
+      name="files"
+      data-value-type="boolean"
+   /> Filer
+   </label
+><br> <label
+><input
+   type="checkbox"
+   name="structure"
+   data-value-type="boolean"
+/> Struktursidor
+</label
+><br> <label
+><input
+   type="checkbox"
+   name="articles"
+   data-value-type="boolean"
+/> Artiklar
+</label
+><br>
+<label
+><input
+   type="checkbox"
+   name="pages"
+   data-value-type="boolean"
+/> Sidor
+</label
+>
+   </div>
+  </div>
+</div>
+
+
+<!-- <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Sökindex</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <select data-component="search-index-selector" name="search-index"></select>
+   </div>
+  </div>
+</div> -->
+
+<!-- <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Utseende</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <select data-component="font-selector" name="font"></select>
+      <select data-component="font-selector" name="font"></select>
+    <br>
+    <select data-component="font-selector" name="font"></select>
+    <select data-component="font-selector" name="font"></select>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Omfång</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label
+      ><input
+         type="checkbox"
+         name="structures"
+         data-value-type="boolean"
+      /> Begränsa vilka strukturer som ska ingå i sökningen
+      </label
+   >
+   </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Metadata
+    </h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label
+      ><input
+         type="checkbox"
+         name="structures"
+         data-value-type="boolean"
+      /> Begränsa vilka sidor som ska ingå i sökningen utifrån metadata
+      </label
+   >
+   </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Filterfråga</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label
+      ><input
+         type="checkbox"
+         name="structures"
+         data-value-type="boolean"
+      /> Använd en extra filterfråga för att begränsa sökresultatet
+      </label
+   >
+   </div>
+</div> -->
+
+
+
+
+

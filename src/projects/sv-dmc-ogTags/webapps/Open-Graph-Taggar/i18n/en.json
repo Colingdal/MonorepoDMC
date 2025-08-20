@@ -1,0 +1,23 @@
+{
+  "settings": "Settings",
+  "defaultImage": "Choose defeault image",
+  "defaultImageText": "Is used if no image has been selected through metadata, or automatic chosen",
+  "images": "Images",
+  "chooseImage": "Choose image",
+  "automaticImages": "Close function that automatic chooses image",
+  "extraImagesTags": "Close extra image tags",
+  "extraImagesTagsText": "Extra image tags: contains, image size and type and all images on the page.",
+  "article": "Article",
+  "metaTagsforArticle": "Close metatags for article",
+  "metaTagsforArticleText": "Metatags for article contains: publishdate, last modified och expiration date.",
+  "twitter": "Twitter",
+  "closeTwitter": "Close twitter tags'",
+  "other": "Other",
+  "closeOther": "Close other tags",
+  "protocol": "Forcing protokoll",
+  "https":  "Forcing https  that replaces protocol.",
+  "domain": "Alternative domain",
+  "domainText": "Replace domain.",
+  "domainPlaceholder": "example.com"
+}
+

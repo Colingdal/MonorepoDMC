@@ -1,0 +1,60 @@
+li 
+{
+  padding: 13px 100px;
+  width: 40%;
+  overflow: auto;
+  background:white;
+  text-align: left;
+  display: block;
+  
+  
+} 
+ul li 
+{
+  text-align: left;
+  display: block;
+  background-color: white;
+  width: 40%;
+
+}
+#navbar{
+  text-align: left;
+  position: relative;
+}
+ul li ul li{
+  text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+  
+
+ 
+
+  
+  
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+{
+  "id": "sv-ftn-api",
+  "version": "0.0.1",
+  "name": "sv-ftn-api",
+  "author": "DMC AB",
+  "description": "A request handler",
+  "helpUrl": "https://example.com/restapps",
+  "type": "RESTApp",
+  "requirePrivileged": true,    
+  "bundled": true,
+  "maxUploadSizeInMB": 2
+}

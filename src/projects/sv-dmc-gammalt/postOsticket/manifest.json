@@ -1,0 +1,17 @@
+{
+  "id": "postOsticket",
+  "version": "0.0.1",
+  "name": {
+    "en": "postOsticket"
+  },
+  "author": "My Company",
+  "description": {
+    "en": "postOsticket"
+  },
+  "helpUrl": "https://example.com/webapps",
+  "type": "WebApp",
+  "bundled": true,
+  "requiredLibs": {
+    "react": "17.0.2"
+  }
+}

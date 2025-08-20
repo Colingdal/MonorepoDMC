@@ -1,0 +1,86 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"> <%= i18n('defaultImage') %></h3>
+  </div>
+  <div class="panel-body">
+    <p><%= i18n('defaultImageText') %></p>
+  <div class="form-group">
+    <input class="form-control" data-types="sv:image" data-component="image-selector" name="defaultImage" placeholder="Välj bild" required>
+  </div>
+</div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"> <%= i18n('images') %></h3>
+  </div>
+  <div class="panel-body">
+  <div class="form-group">
+    <div class="form-group">
+      <label><input type="checkbox" name="imageChoiceSettings" data-value-type="boolean"/> <%= i18n('automaticImages') %></label>
+   </div>
+   <div class="form-group">
+    <label><input type="checkbox" name="imageSettings" data-value-type="boolean"/> <%= i18n('extraImagesTags') %></label>
+ </div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"> <%= i18n('article') %></h3>
+  </div>
+  <div class="panel-body">
+  <div class="form-group">
+    <div class="form-group">
+      <label><input type="checkbox" name="articleSettings" data-value-type="boolean"/> <%= i18n('metaTagsforArticle') %></label>
+   </div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"> <%= i18n('twitter') %></h3>
+  </div>
+  <div class="panel-body">
+  <div class="form-group">
+    <div class="form-group">
+      <label><input type="checkbox" name="twitterSettings" data-value-type="boolean"/> <%= i18n('closeTwitter') %></label>
+   </div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"> <%= i18n('other') %></h3>
+  </div>
+  <div class="panel-body">
+  <div class="form-group">
+    <div class="form-group">
+      <label><input type="checkbox" name="otherSettings" data-value-type="boolean"/> <%= i18n('closeOther') %></label>
+   </div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= i18n('protocol') %></h3>
+  </div>
+  <div class="panel-body">
+  <div class="form-group">
+    <div class="form-group">
+      <label><input type="checkbox" name="https" data-value-type="boolean"/> <%= i18n('https') %></label>
+   </div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= i18n('domain') %></h3>
+  </div>
+  <div class="panel-body">
+    <p><%= i18n('domainText') %></p>
+    <div class="form-group">
+       <input type="text" class="form-control" name="textInput" placeholder="<%= i18n('domainPlaceholder') %>"/>
+    </div>
+  </div>
+</div>
+</div>

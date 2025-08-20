@@ -1,0 +1,18 @@
+{
+  "id": "orgviewNew",
+  "version": "0.0.1",
+  "name": {
+    "en": "orgviewNew"
+  },
+  "author": "My Company",
+  "description": {
+    "en": "A WebApp boilerplate"
+  },
+  "helpUrl": "https://example.com/webapps",
+  "type": "WebApp",
+  "bundled": true,
+  "maxUploadSizeInMB": 4,
+  "requiredLibs": {
+    "react": "17.0.2"
+  }
+}

@@ -1,0 +1,35 @@
+<div class="svhidden" id="pagesObj""><%- pages %></div>
+<div id="result"></div> 
+
+<script>
+    svDocReady(function() {
+
+        let content = "";
+        let p = $svjq('#pagesObj').text();
+        let resultElement = $svjq('#result');
+        const obj = JSON.parse(p);
+      
+        function recurse(node) {
+      
+            const children = node.children;
+            children.forEach((child, index) => {
+                if ( index === 0 ) content += '<ul class="env-nav env-nav--sidenav" id="navbar">';
+                content += `<li class="env-nav__item"><a class="env-nav__link" href="${child.URI}"">${child.name}</a>`;    
+                if (child.children.length > 0);
+                if ( child.children.length > 0 ) recurse(child);    
+                if ( index === children.length - 1 ) content += '</ul>';
+               
+                
+            });
+        }
+        recurse(obj);       
+        resultElement.append(content);
+        
+        
+    });
+</script>
+
+
+
+
+

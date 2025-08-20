@@ -1,0 +1,135 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= i18n('appview') %></h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <select id="view" name="view" class="form-control">
+        <option value="employeetree"><%= i18n('emptree') %></option>
+        <option value="mycollegues"><%= i18n('mycollegues') %></option>
+        <option value="orgchart"><%= i18n('orgchart') %></option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= i18n('relationsAttribute') %></h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <label><%= i18n('directReports') %></label>
+        <input type="text" class="form-control" name="directReportsText" />
+    </div>
+    <div class="form-group">
+      <label><%= i18n('manager') %></label>
+      <input type="text" class="form-control" name="managerText" />
+  </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= i18n('socialCollaboration') %></h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <input
+         type="checkbox"
+         name="checkboxBooleanSocialCollaboration"
+         data-value-type="boolean"
+      /><%= i18n('t/f') %>
+    </div>
+  </div>
+</div>
+
+<div id="cardAttribute-section" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= i18n('userfields') %></h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <input type="hidden" data-component="userfield-list" name="userfields" />
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= i18n('circleColor') %></h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <select data-component="color-selector" name="color"></select>
+    </div>
+  </div>
+</div>
+
+<div id="responsible-section" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= i18n('currentUserResponsible') %></h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <input
+         type="checkbox"
+         name="checkboxBooleanCurrentUser"
+         data-value-type="boolean"
+      /><%= i18n('t/f') %>
+    </div>
+  </div>
+</div>
+
+<div id="metadata-section" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= i18n('metadata') %></h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <select data-component="metadata-selector" name="metadata"></select>
+    </div>
+  </div>
+</div>
+
+<div id="button-section" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= i18n('button') %></h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="form-group">
+      <select id="button" name="button" class="form-control">
+        <option value="standard"><%= i18n('standard') %></option>
+        <option value="primary"><%= i18n('primary') %></option>
+        <option value="secondary"><%= i18n('secondary') %></option>
+      </select>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

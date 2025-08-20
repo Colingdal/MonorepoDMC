@@ -1,0 +1,14 @@
+{
+  "id": "dataRetrieverDDI",
+  "version": "0.0.1",
+  "name": "RESTApp boilerplate",
+  "author": "My Company",
+  "description": "A RESTApp boilerplate",
+  "helpUrl": "https://example.com/restapps",
+  "type": "RESTApp",
+  "bundled": true,
+  "maxUploadSizeInMB": 3,
+  "storage": {
+    "collectionDataStore": "dataRetrieverDDI"
+ }
+}

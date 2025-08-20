@@ -1,0 +1,9 @@
+{
+  "id": "mailWebApp",
+  "version": "0.0.1",
+  "name": "mailWebAppppp",
+  "author": "DMC AB",
+  "description": "A Mail Application",
+  "helpUrl": "https://example.com/webapps",
+  "type": "WebApp"
+}

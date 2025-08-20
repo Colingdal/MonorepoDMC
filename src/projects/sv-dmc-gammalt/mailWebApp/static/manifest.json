@@ -1,0 +1,9 @@
+{
+  "id": "htmlMailDMC",
+  "version": "0.0.1",
+  "name": "htmlMailDMC",
+  "author": "DMC AB",
+  "description": "A Mail Application",
+  "helpUrl": "https://example.com/webapps",
+  "type": "WebApp"
+}

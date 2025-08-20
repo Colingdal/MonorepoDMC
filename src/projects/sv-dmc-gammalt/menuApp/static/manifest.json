@@ -1,0 +1,9 @@
+{
+  "id": "menuApp",
+  "version": "0.0.2",
+  "name": "MenuApp",
+  "author": "DMC AB",
+  "description": "A WebApp boilerplate",
+  "helpUrl": "https://example.com/webapps",
+  "type": "WebApp"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Open-Graph-Taggar",
+  "version": "0.0.1",
+  "name": {
+    "sv": "OG-taggar",
+    "en": "OG-tags"
+  },
+  "author": "DMC AB",
+  "description": {
+    "sv": "En webapp för Open Graph taggar. I denna webapp är det möjligt att ändra inställningar beroende på hur och vilka Open Graph taggar som du vill ska synas",
+    "en": "A webapp for Open Graph tags. In this webapp it is possible to change settings depending on how and which Open Graph tags you want to be shown"
+  },
+  "helpUrl": "https://deermeadow.se/4.1151e8d7187eac56a46152fa.html",
+  "type": "WebApp",
+  "bundled": true,
+  "maxUploadSizeInMB": 5,
+  "requiredLibs": {
+    "react": "17.0.2"
+  }
+}
+
+
+

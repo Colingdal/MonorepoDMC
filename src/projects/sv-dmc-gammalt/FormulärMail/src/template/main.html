@@ -1,0 +1,87 @@
+   <button
+   id="largeBtn"
+   data-modal-dialog
+   data-target="#example1"
+   type="button"
+   class="env-button env-button--primary env-button--large"
+>
+Skicka email</button>
+<div
+   id="example1"
+   class="env-modal-dialog"
+   role="dialog"
+   aria-modal="true"
+   aria-labelledby="modalDialogHeader-2"
+   aria-hidden="true"
+   tabindex="-1"
+>
+   <div class="env-modal-dialog__dialog env-modal-dialog__dialog--large">
+      <section class="env-modal-dialog__content">
+         <header class="env-modal-dialog__header">
+            <h5
+               class="env-text-h5 env-modal-dialog__header__title"
+               id="modalDialogHeader-2"
+            >
+               Nytt Email
+            </h5>
+         </header>        
+         <form class="form-example">
+            
+            
+            <label for="text-0" class="env-form-element__label"></label>
+        <div class="env-form-element__control">
+         <input
+            type="hidden"  
+            name="from"
+            class="env-form-input"
+            id="text-0"
+            value="<%- mail %>"
+
+         />
+        </div>
+            
+         <label for="text-1" class="env-form-element__label">Ämne</label>
+         <div class="env-form-element__control">
+            <input
+               type="text"
+               name="headline"
+               class="env-form-input"
+               placeholder="Input ämne"
+               id="text-1"
+            />
+         </div>
+         <label for="textarea" class="env-form-element__label">Text</label>
+         <div class="env-form-element__control">
+         <textarea
+            class="env-form-input"
+            name="content"
+            placeholder="Input text"
+            id="textarea"
+            rows="4"
+         ></textarea>     
+              <label for="email">Skriv email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>  
+           
+         <footer
+            class="env-modal-dialog__footer env-modal-dialog__footer--right"
+         > 
+            <button input 
+            data-modal-dialog-send
+            type="" id="showBtn" class="env-button env-button--primary"> 
+                Skicka
+            </button>
+            <button
+               type="button"
+               name="mail"
+               data-modal-dialog-dismiss
+               class="env-button env-button--link"
+            >
+               Tillbaka
+            </button>
+         </footer>     
+        </form>   
+      </section>
+   </div>
+</div>
+

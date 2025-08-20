@@ -1,0 +1,26 @@
+{
+  "settings": "Inställningar",
+  "defaultImage": "Välj standardbild",
+  "defaultImageText": "Används om ingen bild pekats ut via metadata eller annan bild, som väljs automatiskt, finns på sidan.",
+  "images": "Bilder",
+  "chooseImage": "Välj bild",
+  "automaticImages": "Stäng av funktionen att sidans första bild används.",
+  "extraImagesTags": "Stäng av 'extra bildtaggar'",
+  "extraImagesTagsText": "Extra bildtaggar innehåller: bildstorlek, bildtyp och samtliga bilder som finns på sidan.",
+  "article": "Artikel",
+  "metaTagsforArticle": "Stäng av 'metataggar för artikel'",
+  "metaTagsforArticleText": "Metataggar för artikel innehåller: publiceringsdatum, senast ändrad och utgångsdatum.",
+  "twitter": "Twitter",
+  "closeTwitter": "Stäng av 'twittertaggar'",
+  "other": "Övrigt",
+  "closeOther": "Stäng av 'övriga taggar'",
+  "protocol": "Tvingande protokoll",
+  "https":  "Tvingande https som ersätter befintligt protokoll.",
+  "domain": "Alternativ domän",
+  "domainText": "Används om domän ska ersättas.",
+  "domainPlaceholder": "exempel.se"
+
+
+
+  
+}
